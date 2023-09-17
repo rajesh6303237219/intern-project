@@ -166,112 +166,53 @@
                  margin-top:30px;
              }
           }
-          @media screen and (max-width:1025px) and (min-width:1023px){
-              .contuct h1{
-                  font-size:50px;
-              }
-              .icons ul li{
-                  font-size:17px;
-              }
-              .locations h3{
-                  font-size:17px;
-              }
-              .details p{
-                  font-size:17px;
-              }
+         @media screen and (max-width:920px){
+          .maincontent{
+                display: flex;
+                flex-direction: column;
+                margin-left:18%;
           }
-          @media screen and (max-width:769px) and (min-width:766px){
+          .icons{
+             margin-top:30px;
+          }
+          .locations{
+            margin-top:30px;
+          }
+          .details{
+             margin-top:40px;
+             font-size:30px;
+          }
+          }
+          @media screen and (max-width:522px){
+             .contuct h1{
+                font-size:57px;
+             }
+             .details{
+                font-size:22px;
+             }
+          }
+          @media screen and (max-width:792px) and (min-width:319px){
+                .main{
+                  height:200vh;
+                }
+          }
+          @media screen and (max-width:351px) and (min-width:319px){
+            .main{
+                height:220vh;
+                width:100vw;
+            }
             .contuct h1{
-                font-size:50px;
+               font-size:40px;
             }
-            .text h2,h3{
-               font-size:14px;
-              }
-              .icons ul li{
-                 font-size:18px;
-              }
-              .locations h3{
-                    font-size:18.6px;
-              }
-              .details p{
-                   font-size:19px;
-                 
-              }
-              .socialmedia-icons{
-                  font-size: 20px;
-              }
-              .maincontent{
-                  margin-left:40px;
-              }
+            .details{
+              font-size:16px;
             }
-            @media screen and (max-width:426px) and (min-width:424px){
-              .maincontent{
-                display: flex;
-                flex-direction: column;
-              }
-              .contuct h1{
-                 font-size:40px;
-              }
-              .text h2{
-                  font-size:28px;
-                  margin-top:50px;
-              }
-              .maincontent{
-                margin-left:70px;
-              }
-              .details{
-                 margin-left:20px;
-                 margin-top:40px; 
-              }
-              .main{
-                height:180vh;
-              }
+            .text h2 {
+               font-size:17px;
             }
-            @media screen and (max-width:376px) and (min-width:374px){
-              .maincontent{
-                display: flex;
-                flex-direction: column;
-              }
-              .contuct h1{
-                 font-size:40px;
-              }
-              .text h2{
-                  font-size:28px;
-                  margin-top:50px;
-              }
-              .maincontent{
-                margin-left:70px;
-              }
-              .details{
-                 
-                 margin-top:40px; 
-              }
-              .main{
-                height:180vh;
-                width:110vw;
-              }
+            .text ,h3{
+              font-size:13px;
             }
-            @media screen and (max-width:321px) and (min-width:319px){
-              .maincontent{
-                display: flex;
-                flex-direction: column;
-              }
-              .contuct h1{
-                 font-size:40px;
-              }
-              .text h2{
-                  font-size:28px;
-                  margin-top:50px;
-              }
-              .maincontent{
-                margin-left:70px;
-              }
-              .details{
-                margin-top:40px; 
-              }
-              .main{
-                height:180vh;
-                width:140vw;
-              }
-            }
+           
+          }
         </style>

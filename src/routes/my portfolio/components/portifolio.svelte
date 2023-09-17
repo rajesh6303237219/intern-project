@@ -161,141 +161,66 @@
         font-size:100px;
       }
      }
-     @media screen and (max-width:426px) and (min-width:424px){
-       .main{
-         display: flex;
-         flex-direction: column;
-         height:130%;
-       }
-       .disply{
+     @media screen and (max-width:705px){
+      .disply{
+            display: flex;
+            flex-direction: column;
+            margin-left:33%;
+      }
+      .main{
+          height:330vh;
+      }
+      .myportfolio h2{
+          font-size:16px;
+      }
+      .images img{
+            height:40vh;
+            width:36vw;
+      }
+      .image1 img{
+            height:40vh;
+            width:36vw;
+      }
+      .image2 img{
+            height:40vh;
+            width:36vw;
+      }
+      .flex{
           display: flex;
           flex-direction: column;
-       }
-       .flex{
-          display: flex;
-          flex-direction: column;
-       }
-       .images img{
-           height:45vh;
-           width:60vw;
-           margin-left:80px;
-       }
-       .image1 img{
-           height:45vh;
-           width:60vw;
-           margin-left:80px;
-       }
-       .image2 img{
-           height:45vh;
-           width:60vw;
-           margin-left:80px;
-       }
-       .card1 img{
-           height:45vh;
-           width:60vw;
-           margin-left:80px;
-       }
-       .card2 img{
-           height:45vh;
-           width:60vw;
-           margin-left:80px;
-       }
-       .card3 img{
-           height:35vh;
-           width:60vw;
-           margin-left:80px;
+          margin-left:33%;
+      }
+      .card1 img{
+            height:40vh;
+            width:36vw;
+      }
+      .card2 img{
+            height:40vh;
+            width:36vw;
+      }
+      .card3 img{
+            height:40vh;
+            width:36vw;
+      }
+      .myportfolio h1{
+           font-size:60px;
+      }
+     }
+     @media screen and (max-width:447px){
+        .myportfolio h1{
+            font-size:40px;
+        }
+       .images{
+          height:40vh;
+          width:40vw;
        }
      }
-     @media screen and (max-width:376px) and (min-width:374px){
-      .main{
-         display: flex;
-         flex-direction: column;
-         height:130%;
-         width:110vw;
-       }
-       .disply{
-          display: flex;
-          flex-direction: column;
-       }
-       .flex{
-          display: flex;
-          flex-direction: column;
-       }
-       .images img{
-           height:45vh;
-           width:60vw;
-           margin-left:80px;
-       }
-       .image1 img{
-           height:45vh;
-           width:60vw;
-           margin-left:80px;
-       }
-       .image2 img{
-           height:45vh;
-           width:60vw;
-           margin-left:80px;
-       }
-       .card1 img{
-           height:45vh;
-           width:60vw;
-           margin-left:80px;
-       }
-       .card2 img{
-           height:45vh;
-           width:60vw;
-           margin-left:80px;
-       }
-       .card3 img{
-           height:35vh;
-           width:60vw;
-           margin-left:80px;
-       }
-     }
-     @media screen and (max-width:321px) and (min-width:319px){
-      .main{
-         display: flex;
-         flex-direction: column;
-         height:130%;
-         width:130vw;
-       }
-       .disply{
-          display: flex;
-          flex-direction: column;
-       }
-       .flex{
-          display: flex;
-          flex-direction: column;
-       }
-       .images img{
-           height:45vh;
-           width:80vw;
-           margin-left:80px;
-       }
-       .image1 img{
-           height:45vh;
-           width:80vw;
-           margin-left:80px;
-       }
-       .image2 img{
-           height:45vh;
-           width:80vw;
-           margin-left:80px;
-       }
-       .card1 img{
-           height:45vh;
-           width:80vw;
-           margin-left:80px;
-       }
-       .card2 img{
-           height:45vh;
-           width:80vw;
-           margin-left:80px;
-       }
-       .card3 img{
-           height:35vh;
-           width:80vw;
-           margin-left:80px;
-       }
+     @media screen and (max-width:324px){
+            .myportfolio h1{
+                font-size:35px;
+            }
+            .myportfolio h2{
+                font-size:13px;
+            }
      }
 </style>

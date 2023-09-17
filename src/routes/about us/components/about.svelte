@@ -50,7 +50,7 @@
     </div>
     </div>    
   <div class="skill">
-    <h1>MY SKILLS</h1>
+    <h1 class="margin">MY SKILLS</h1>
   </div>
   <div class="html">
     <div class=javascript>
@@ -239,251 +239,176 @@
        .two{
         margin-top:50px;
        }
-       @media screen and (min-width:2559px){
-            .about h1{
-                font-size:100px;
-            }
-            .maindiv{
-             margin-top:200px;
-            }
-            .introduction1 h2{
-                   font-size:50px;
-            }
-            .introduction1 h3{
-                 font-size:40px;
-            }
-            .introduction2 h3{
-                font-size:40px;
-            }
-            .inside{
-              margin-top:60px;
-            }
-            .introduction3 button{
-              margin-top:60px;
-              font-size:40px;
-            }
-            .boxs{
-               margin-top:100px;
-            }
-            .card1 h1, h2{
-               font-size:90px;
-            }
-            .card2 h1, h2{
-               font-size:90px;
-            }
-            .box1 h1, h2{
-               font-size:90px;
-            }
-            .box2 h1, h2{
-               font-size:90px;
-            }
-            .skill h1{
-               font-size:90px;
-            }
-            .javascript h1,p{
-            font-size:80px;
-            font-weight: bold;
-          }
-          .javascript p{
-            margin-top:90px;
-          }
-          .javascript h1{
-            margin-top:80px;
-          }
-          .css h1,p{
-            font-size:80px;
-            font-weight: bold;
-          }
-          .css p{
-            margin-top:90px;
-          }
-          .css h1{
-            margin-top:80px;
-          }
-          .main{
-            height:100%;
-          }
-       }
-       @media screen and (max-width:1441px) and (min-width:1439px){
-        .main{
-          height:100%;
-        }
-      }
-       @media screen and (max-width:1025px) and (min-width:1023px){
-              .introduction1 h2{
-                  font-size:24px;
-              }
-              .introduction1 h3{
-                 font-size:18px;
-              }
-              .introduction2 h3{
-                  font-size:18px;
-              }
-              .card1 h1, h2{
-               font-size:30px;
-            }
-            .card2 h1, h2{
-               font-size:30px;
-            }
-            .box1 h1, h2{
-               font-size:30px;
-            }
-            .box2 h1, h2{
-               font-size:30px;
-            }
-            .cards{
-             gap: 28px;
-           }
-          .boxs{
-            gap:28px;
-          }
-          .html{
-             margin-left:190px;
-          }
-          .skill h1{
-              margin-top:0px;
-          }
-          .main{
-          height:100%;
-          }
-      }
-      @media screen and (max-width:769px) and (min-width:767px){
+      
+       @media screen and (max-width:1041px){
          .maindiv{
-            display: flex;
-            flex-direction: column;
-            margin-left:70px;      
-         }
-         .introduction3 button{
-               margin-left:160px;
-               margin-top:60px;
-         }
-         .main{
-            height:100%;
-         }
-         .skill h1{
-         margin-top:60px;
-         }
-         .boxs{
-             margin-left:80px;
-         }
-         .cards{
-          margin-left:80px;
+             display: flex;
+             flex-direction: column;
          }
          .html{
-          margin-left:170px;
+           margin-left:150px;
          }
-      }
-      @media screen and (max-width:426px) and (min-width:424px){
-        .maindiv{
-           display: flex;
-           flex-direction: column;
-           }
-           .main{
-              height:100%;
-              width:130vw;
-           }
-           .introduction3 button{
-              margin-left:182px;
-              margin-top:60px;
-           }
-           .cards{ 
-              margin-left:50px;
-           }
-           .boxs{
-              margin-left:50px;
-           }
-           .skill h1{
-             margin-top:70px;
-           }
-           .html{
-          margin-left:170px;
-          gap:130px;
+         
+         .introduction h3{
+            margin-left:200px;
+            font-size:30px;
          }
-      }
-      @media screen and (max-width:376px) and (min-width:374px){
-        .maindiv{
-           display: flex;
-           flex-direction: column;
-           }
-           .main{
-              height:100%;
-              width:140vw;
-           }
-           .introduction3 button{
-              margin-left:182px;
-              margin-top:60px;
-           }
-           .cards{ 
-              margin-left:50px;
-           }
-           .boxs{
-              margin-left:50px;
-           }
-           .skill h1{
-             margin-top:70px;
-           }
-           .html{
-          margin-left:170px;
-          gap:130px;
-         }
-         .introduction{
-          margin-left:0px;
-         }
-         .cards{
-           gap:50px;
-           margin-left:80px;
-         }
-         .boxs{
-           gap:50px;
-           margin-left:80px;
-         }
-         .introduction{
-             margin-left:0px;
-         }
-        }
-        @media screen and (max-width:321px) and (min-width:319px){
-          .maindiv{
-           display: flex;
-           flex-direction: column;
-           }
-           .main{
-              height:100%;
-              width:160vw;
-           }
-           .introduction3 button{
-              margin-left:182px;
-              margin-top:60px;
-           }
-           .cards{ 
-              margin-left:50px;
-           }
-           .boxs{
-              margin-left:50px;
-           }
-           .skill h1{
-             margin-top:70px;
-           }
-           .html{
-          margin-left:170px;
-          gap:130px;
-         }
-         .introduction{
-          margin-left:0px;
-         }
-         .cards{
-           gap:50px;
-           margin-left:80px;
-         }
-         .boxs{
-           gap:50px;
-           margin-left:80px;
-         }
-         .introduction{
-            font-size:10px;
-            
+         .introduction h2{
+            font-size:40px;
+            margin-left:290px;
          }
          .introduction button{
-                font-size:23px;
+              margin-left:390px;
+              margin-top:80px;
+              width:20vw;
          }
+         .inside{
+           margin-top:40px;
+         }
+         .cards{
+             display: flex;
+             justify-content: center;
+         }
+         .boxs{
+             display: flex;
+             justify-content: center;
+         }
+         .margin{
+            margin-top:79px;
+         }
+       }
+       @media screen and (max-width:841px){
+         .introduction h3{
+             font-size:23px;
+             margin-left:150px;
+         }
+         .introduction1 h2{
+              margin-left:150px;
+         }
+         .introduction button{
+             margin-left:300px;
+         }
+       }
+      @media screen and (max-width:693px){
+         .introduction h3{
+             font-size:18px;
+             margin-left:130px;
+         }
+         .introduction1 h2{
+              margin-left:100px;
+         }
+         .introduction button{
+             margin-left:260px;
+         }
+         
+         .html{
+            gap:120px;
+         }
+       }
+       @media screen and (max-width:693px){
+        .introduction1 h2{
+             font-size:30px;
+             margin-left:86px;
         }
+       }
+      @media screen and (max-width:1025px) and (min-width:452px){
+           .main{
+             height:240vh;
+           }
+      }
+      @media screen and (max-width:769px) and (min-width:454px){
+            .main{
+               height:300vh;
+            }
+      }
+      @media screen and (max-width:454px) and (min-width:320px){
+        .main{
+            height:290vh;
+        }
+      }
+      @media screen and (max-width:529px){
+        .introduction h3{
+            font-size:13px;
+        }
+        .introduction button{
+            width:34vw;
+            margin-left:170px;
+        }
+        .cards{
+           gap:30px;
+        }
+        .boxs{
+          gap:30px;
+        }
+      }
+      @media screen and (max-width:476px){
+           .introduction1 h2{
+                font-size:25px;
+           }
+           .introduction h3{
+              margin-left:90px;
+           }
+           .about h1{
+               font-size:50px;
+           }
+           .html{
+              gap:98px;
+              margin-left:40%;
+           }
+      }
+      @media screen and (max-width:364px){
+              .introduction h3{
+                   font-size:10px;
+                   margin-left:50px;
+              }
+              .introduction h2{
+                  font-size:20px;
+                  margin-left:40px;
+              }
+              .introduction button{
+                      margin-left:110px;
+              }
+              .card1 h1{
+                  font-size:30px;
+              }
+              .card1 h2{
+                  font-size:15px;
+              }
+              .card2 h1{
+                  font-size:30px;
+              }
+              .card2 h2{
+                  font-size:15px;
+              }
+              .box1 h1{
+                  font-size:30px;
+              }
+              .box1 h2{
+                  font-size:15px;
+              }
+              .box2 h1{
+                  font-size:30px;
+              }
+              .box2 h2{
+                  font-size:15px;
+              }
+              .skill h1{
+                font-size:35px;
+              }
+              .javascript h1{
+                 font-size:13px;
+              }
+              .javascript p{
+                 font-size:19px;
+              }
+              .css h1{
+                 font-size:13px;
+              }
+              .css p{
+                 font-size:19px;
+              }
+              .html{
+                 gap:90px;
+              }
+      }
 </style>
