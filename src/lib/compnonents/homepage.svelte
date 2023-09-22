@@ -205,47 +205,36 @@
      margin-left:90px;
   }
  }  
- @media screen and (max-width:390px){
-   .img{
-      height:80vh;
-      margin-left:50px;
-   }
-   .introduction h1{  
-       margin-left:22px;
-   }
-   .introduction p{
-       font-size:12px;
-   }
-   .introduction button{
-        margin-left:40px;
-   }
- }   
- @media screen and (max-width:365px){
-   .icon,a{
-     font-size:13px;
-     padding:0px;
-   }
+ @media screen and (max-width:430px){
+  .img{
+      width:50vw;
+      height:50vh; 
+      margin-top:50px;
+      margin-left:25%;
+  }
+  .img img{
+     width:27vw;
+     height:27vh;
+     margin-left:60px;
+     margin-top: 60px;
+  }
+  .main-content{
+       height:162vh;
+  }
  }
- @media screen and (max-width:341px){
-     .img{
-      width:70vw;
-     }
-     .img img{
-        margin-left:70px;
- }
- .introduction h1{
-    font-size:23px;
- }
- .introduction p{
-   margin-left:0px;
-   font-size:10px;
- }
- .introduction button{
-    margin-left:0px;
- }
- .icon ,a{
-    gap:0px;
-    font-size:8px;
- }
- }
+@media screen and (max-width:357px){
+  .introduction p{
+     font-size:12px;
+  }
+  .introduction h1{
+    font-size:24px;
+    margin-left:29px;
+  }
+  .icons,a{
+    font-size:10px;
+  }
+  .introduction button{
+       margin-left:29px;
+  }
+}
 </style>
